@@ -142,24 +142,13 @@ font-size: 20px;
     margin-right: 1rem; 
 } 
 
-   #rightsidetext {
-    display: flex; 
-    background-color: black; 
-    border: 1px solid white; 
-    flex-direction: column; 
-    height: 275px; 
-    width: 250px; 
-}  
-
 
 .buttons {
     display: flex; 
     height: 30px; 
     width: 800px; 
     flex-direction: rows;
-    /* align-items: center; */
     justify-content: space-evenly;
-    /* margin-left: 22rem;  */
     margin-top: 5rem;
     margin-bottom: -1rem;
 }
@@ -170,7 +159,6 @@ font-size: 20px;
 
 .score-area {
     justify-content: space-evenly;
-    /* margin: auto;  */
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -185,9 +173,11 @@ font-size: 20px;
     display: flex; 
     justify-content: center;
     flex-direction: column;
+    border: 1px solid white; 
+    height: 275px; 
+    width: 250px; 
     font-size: 29px; 
     text-align: center; 
-    padding: -7px; 
 }
 
 #start {
@@ -206,7 +196,6 @@ font-size: 20px;
     border: 2px solid white; 
     color: white; 
     border-radius: 3px; 
-    /* margin-left: -2rem;  */
 
 }
 
