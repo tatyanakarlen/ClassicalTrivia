@@ -176,7 +176,7 @@ font-size: 20px;
     border: 1px solid white; 
     height: 275px; 
     width: 250px; 
-    font-size: 29px; 
+    font-size: 27px; 
     text-align: center; 
 }
 
@@ -196,7 +196,6 @@ font-size: 20px;
     border: 2px solid white; 
     color: white; 
     border-radius: 3px; 
-
 }
 
 
@@ -244,6 +243,9 @@ color: red;
 #chancesMsg {
     margin-bottom: -0.2rem;   
 }
+
+
+
 
 
 

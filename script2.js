@@ -94,10 +94,12 @@ function hintBtn() {
         btn.innerHTML = "HINT"
         btn.style.backgroundColor = "red"
         btn.style.marginLeft = "10px"
-        btn.style.border = "1px solid red"
+        btn.style.border = "1px solid white"
+        btn.style.borderRadius = "2px"
         btn.style.color = "white"
         btn.style.width = "43px"
         btn.style.fontSize = "13px"
+        btn.style.cursor = "pointer"
         document.getElementById('hint').appendChild(btn)
         btn.addEventListener('click', hintAnswer)
     }
@@ -131,6 +133,7 @@ function startGame() {
 
 function reset() {
     letterBoxContainer.innerHTML = ''
+    // start.style.cursor = "default"
     chances = 8
     winning = 0
     playerWin = 0
@@ -183,7 +186,6 @@ function keyClick(e) {
 // letterRender function 
 
 function letterRender(indexValOfWord, letter) {
-    console.log(indexValOfWord, letter)
     letterBoxes[indexValOfWord].innerHTML = letter.toUpperCase()
 }
 
