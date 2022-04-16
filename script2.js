@@ -5,7 +5,8 @@ const wordData = [
     { word: 'romeo and juliet', question: "Prokofiev was an early 20th Century Russian composer known for this ballet", hint: "It was written by Shakespeare", img: "assetstrivia/romeojuliet1.jpeg" },
     { word: 'funeral march', question: "Chopin was not a fan of Beethoven but he did compose his own famous version of?", hint: "Something that is played on a bad day", img: "assetstrivia/Beethoven.jpeg" },
     { word: 'swan lake', question: "This popular ballet is one of Tchaikovsky's best known works", hint: "They swin", img: "assetstrivia/tchaikovsky.jpg" },
-    { word: 'chopin poland', question: "This best-known Romantic composer was half French but was born in?", hint: "Eastern Europe", img: "assetstrivia/chopin3.png"}
+    { word: 'chopin poland', question: "This best-known Romantic composer was half French but was born in?", hint: "Eastern Europe", img: "assetstrivia/chopin3.png"}, 
+    { word: 'sleeping beauty', question: "This famous Tchaikovsky ballet was reworked by Igor Stravinsky in the 20 century for the Ballet Russe", hint: "It was also a Disney film", img: "assetstrivia/balletrusse1.jpeg"}
 ]
 
 // app state variables 
