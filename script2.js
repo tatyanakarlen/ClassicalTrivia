@@ -61,6 +61,18 @@ function createsWordPlaceholders() {
         const letterBoxElem = document.createElement('div')
         letterBoxElem.classList.add('letterBoxes')
         letterBoxContainer.appendChild(letterBoxElem)
+
+    //    OPTION 1: add additional styles with js
+        letterBoxContainer.style.cssText = ` 
+           height: 40px; 
+           margin-top: 3rem; 
+      `; 
+
+    // ------------- OR -------------- //
+
+    //    OPTION 2: add an additional css class to the div
+    letterBoxContainer.classList.add('add-margin')
+
         if (currentWord[i] === ' ') {
             letterBoxElem.style.color = "transparent"
         } else {
@@ -95,8 +107,7 @@ function hintBtn() {
         btn.innerHTML = "HINT"
         btn.style.backgroundColor = "red"
         btn.style.marginLeft = "10px"
-        btn.style.border = "1px solid white"
-        btn.style.borderRadius = "2px"
+        btn.style.border = "none"
         btn.style.color = "white"
         btn.style.width = "43px"
         btn.style.fontSize = "13px"
@@ -121,7 +132,7 @@ function startGame() {
     start.innerText = "NEXT"
     hintSection.innerHTML = "Test your knowledge of music history"
     start.removeEventListener('click', startGame)
-    // start.style.cursor = "not-allowed"
+    start.style.cursor = "not-allowed"
     rightSideText.innerHTML = currentWordData.question
     createsWordPlaceholders()
     for (let i = 0; i < allKeys.length; i++) {
@@ -134,7 +145,6 @@ function startGame() {
 
 function reset() {
     letterBoxContainer.innerHTML = ''
-    // start.style.cursor = "default"
     chances = 8
     winning = 0
     playerWin = 0
@@ -210,6 +220,7 @@ function checkWin() {
         }
     }
     start.addEventListener('click', startGame)
+    start.style.cursor = "pointer"
 }
 
 

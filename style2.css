@@ -22,11 +22,16 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 550px; 
-    height: 40px; 
-    margin:auto; 
+    margin: auto; 
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem; /* controls space between header and panels */
     background-color: #1f1e24;
+    /* transition: all 250ms ease-in; */
+}
+
+.add-margin {
+    height: 40px; 
+    margin-top: 3rem;
 }
 
 .letterBoxes {
