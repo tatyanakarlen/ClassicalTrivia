@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lustria&display=swap');
 
-
-
 body {
     display: flex;
     justify-content: center;
@@ -250,9 +248,6 @@ color: red;
 #chancesMsg {
     margin-bottom: -0.2rem;   
 }
-
-
-
 
 
 

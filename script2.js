@@ -111,8 +111,8 @@ function hintBtn() {
         btn.style.marginLeft = "-10px"
         btn.style.border = "none"
         btn.style.color = "white"
-        btn.style.width = "2.5rem"
-        // btn.style.fontSize = "13px"
+        btn.style.width = "43px"
+        btn.style.fontSize = "13px"
         btn.style.cursor = "pointer"
         document.getElementById('hint').appendChild(btn)
         btn.addEventListener('click', hintAnswer)
