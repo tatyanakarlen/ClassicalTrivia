@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lustria&display=swap');
 
+
+
 body {
     display: flex;
     justify-content: center;
@@ -22,11 +24,16 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 550px; 
-    height: 40px; 
-    margin:auto; 
+    margin: auto; 
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem; /* controls space between header and panels */
     background-color: #1f1e24;
+    /* transition: all 250ms ease-in; */
+}
+
+.add-margin {
+    height: 40px; 
+    margin-top: 3rem;
 }
 
 .letterBoxes {
@@ -142,24 +149,13 @@ font-size: 20px;
     margin-right: 1rem; 
 } 
 
-   #rightsidetext {
-    display: flex; 
-    background-color: black; 
-    border: 1px solid white; 
-    flex-direction: column; 
-    height: 275px; 
-    width: 250px; 
-}  
-
 
 .buttons {
     display: flex; 
     height: 30px; 
     width: 800px; 
     flex-direction: rows;
-    /* align-items: center; */
     justify-content: space-evenly;
-    /* margin-left: 22rem;  */
     margin-top: 5rem;
     margin-bottom: -1rem;
 }
@@ -170,7 +166,6 @@ font-size: 20px;
 
 .score-area {
     justify-content: space-evenly;
-    /* margin: auto;  */
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -185,9 +180,11 @@ font-size: 20px;
     display: flex; 
     justify-content: center;
     flex-direction: column;
-    font-size: 29px; 
+    border: 1px solid white; 
+    height: 275px; 
+    width: 250px; 
+    font-size: 27px; 
     text-align: center; 
-    padding: -7px; 
 }
 
 #start {
@@ -206,8 +203,6 @@ font-size: 20px;
     border: 2px solid white; 
     color: white; 
     border-radius: 3px; 
-    /* margin-left: -2rem;  */
-
 }
 
 
@@ -255,6 +250,12 @@ color: red;
 #chancesMsg {
     margin-bottom: -0.2rem;   
 }
+
+
+
+
+
+
 
 
 

@@ -21,3 +21,5 @@ HTML, CSS and JavaScript.
 # Future improvments 
 
 Adding sounds, adding up to 100 or more questions. 
+
+
