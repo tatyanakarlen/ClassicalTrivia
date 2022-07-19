@@ -105,12 +105,13 @@ function hintBtn() {
     if (chances === 3) {
         let btn = document.createElement("button")
         btn.innerHTML = "HINT"
+        btn.style.textAlign = "center"
         btn.style.backgroundColor = "red"
-        btn.style.marginLeft = "10px"
+        // btn.style.paddingLeft = "10px"
         btn.style.border = "none"
         btn.style.color = "white"
-        btn.style.width = "43px"
-        btn.style.fontSize = "13px"
+        btn.style.width = "2.5rem"
+        // btn.style.fontSize = "13px"
         btn.style.cursor = "pointer"
         document.getElementById('hint').appendChild(btn)
         btn.addEventListener('click', hintAnswer)
