@@ -106,8 +106,9 @@ function hintBtn() {
         let btn = document.createElement("button")
         btn.innerHTML = "HINT"
         btn.style.textAlign = "center"
+        // btn.style.cssText = "center"
         btn.style.backgroundColor = "red"
-        // btn.style.paddingLeft = "10px"
+        btn.style.marginLeft = "10px"
         btn.style.border = "none"
         btn.style.color = "white"
         btn.style.width = "2.5rem"
@@ -115,6 +116,7 @@ function hintBtn() {
         btn.style.cursor = "pointer"
         document.getElementById('hint').appendChild(btn)
         btn.addEventListener('click', hintAnswer)
+    
     }
 }
 
@@ -180,12 +182,16 @@ function keyClick(e) {
         losing()
         checkWin()
         hintBtn()
+        start.removeEventListener('click', startGame)
+    start.style.cursor = "not-allowed"
     } else {
         currentWordToArray.forEach(function (letter, index) {
             if (letter === btnID.toLowerCase()) {
                 winning++
                 letterRender(index, letter)
                 checkWin()
+                start.removeEventListener('click', startGame)
+    start.style.cursor = "not-allowed"
             }
         })
     }
@@ -213,6 +219,8 @@ function checkWin() {
         }
         score++
         scoreMsg.innerHTML = score
+        start.style.cursor = "pointer"
+        start.AddEventListener('click', startGame)
 
     } else if (playerWin === 8) {
         hintSection.innerHTML = currentWordData.word.toUpperCase() + '.' + ' Try Again!'
@@ -222,6 +230,7 @@ function checkWin() {
     }
     start.addEventListener('click', startGame)
     start.style.cursor = "pointer"
+    
 }
 
 
