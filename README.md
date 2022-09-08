@@ -11,9 +11,12 @@ require two answers. Questions are generated randomly and are accompanied by an 
 ![clone](https://imgur.com/UBtNGhC.png)
 
 
+
 # How to play 
 
 The user must click PLAY to begin, at which point the button's text becomes NEXT, however, it is not possible to skip to the next question unless the user succeeds or fails at answering the question. This is achieved by de-activating the NEXT button. The user's chances of selecting the correct letter/s is capped at eight, and the game keeps track of the user's attempts and provides a hint if there are three chances left. Once the correct letter is selected, the letter will render in the correct letter placeholder, the keyboard key is de-activated and it's color faded out into the background. If the user runs out of chances, the game will end, the answer will render at the top and the NEXT button is activated. If a user succesfully answers a question their score is incremented by one and displayed. The user has the option of re-setting the score via a RESET button. 
+
+![clone](https://imgur.com/YqYtyls.png)
 
 # Technologies Used
 
