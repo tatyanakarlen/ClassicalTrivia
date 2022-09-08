@@ -8,7 +8,7 @@ Classical Trivia is a friendly educational trivia game about Western Classical m
 composer biographies, famous works, genres, eras, and world history/geography. Many questions feature a 'question within a question' and
 require two answers. Questions are generated randomly and are accompanied by an image. Many questions feature hints or indirect answers to other questions in the game. 
 
-![clone](https://imgur.com/FRXCHfH.png)
+![clone](https://imgur.com/UBtNGhC.png)
 
 
 # How to play 
