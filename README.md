@@ -1,8 +1,10 @@
+![clone](https://imgur.com/ZV7kv79.png)
+
 # Classical Trivia
 
 # Description 
 
-Classical Trivia is a friendly entry-level educational trivia game about Western Classical music history. Topics include 
+Classical Trivia is a friendly educational trivia game about Western Classical music history. Topics include 
 composer biographies, famous works, genres, eras, and world history/geography. Many questions feature a 'question within a question' and
 require two answers. Questions are generated randomly and are accompanied by an image which often times provides a hint to the current question. Many questions feature hints or indirect answers to other questions in the game. 
 
